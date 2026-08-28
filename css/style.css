@@ -1,5 +1,6 @@
 body {
     background-color: rgb(0, 0, 0);
+
 }
 
 .box {
@@ -14,88 +15,60 @@ body {
 
 .linha1 {
     display: flex;
-    flex-direction: row;  
-    width: 500px;
-    height: 500px;
+    justify-content: flex-start; 
+    gap: 10px;
 }
 
 .linha2 {
-    display: flex;
-    flex-direction: ;  
-    justify-content: ;  
-    align-items: ;  
-    width: 500px;
-    height: 500px;
+    display: flex;  
+    justify-content: center;
+    gap: 10px;
 }
 
 .linha3 {
     display: flex;
-    flex-direction: ;  
-    justify-content: ;  
-    align-items: ;  
-    width: 500px;
-    height: 500px;
+    justify-content: flex-end;  
+    gap: 10px;
 }
 
 .linha4 {
     display: flex;
-    flex-direction: ;  
-    justify-content: ;  
-    align-items: ;  
-    width: 500px;
-    height: 500px;
+    justify-content: space-between;  
+    gap: 10px;
 }
 
 .linha5 {
     display: flex;
-    flex-direction: ;  
-    justify-content: ;  
-    align-items: ;  
-    width: 500px;
-    height: 500px;
+    justify-content: space-around;  
+    gap: 10px;
 }
 
 .linha6 {
     display: flex;
-    flex-direction: ;  
-    justify-content: ;  
-    align-items: ;  
-    width: 500px;
-    height: 500px;
+    justify-content: space-evenly;  
+    gap: 10px;
 }
 
 .linha7 {
     display: flex;
-    flex-direction: ;  
-    justify-content: ;  
-    align-items: ;  
-    width: 500px;
-    height: 500px;
+    justify-content: center;  
+    gap: 10px;
 }
 
 .linha8 {
     display: flex;
-    flex-direction: ;  
-    justify-content: ;  
-    align-items: ;  
-    width: 500px;
-    height: 500px;
+    justify-content: space-between;  
+    gap: 10px;
 }
 
 .linha9 {
     display: flex;
-    flex-direction: ;  
-    justify-content: ;  
-    align-items: ;  
-    width: 500px;
-    height: 500px;
+    justify-content: space-around;  
+    gap: 10px;
 }
 
 .linha10 {
     display: flex;
-    flex-direction: ;  
-    justify-content: ;  
-    align-items: ;  
-    width: 500px;
-    height: 500px;
+    justify-content: center;  
+    gap: 10px;
 }
